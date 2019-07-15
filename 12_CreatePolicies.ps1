@@ -1,0 +1,15 @@
+﻿New-CsTeamsMessagingPolicy `
+    -Identity ReadyMessagingPolicy `
+    -Description "Demo policy" `
+    -AllowOwnerDeleteMessage $true `
+    -AllowUserChat $true `
+    -AllowUserDeleteMessage $true `
+    -AllowStickers $true `
+    -AllowUrlPreviews $true `
+    -AllowImmersiveReader $true `
+    -AllowUserTranslation $true `
+    -AllowUserEditMessage $true `
+    -AllowRemoveUser $true `
+    -AllowMemes $true `
+    -AllowPriorityMessages $true `
+    -AllowGiphy $true
