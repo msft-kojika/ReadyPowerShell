@@ -1,0 +1,2 @@
+# ReadyPowerShell
+Sample PowerShell
